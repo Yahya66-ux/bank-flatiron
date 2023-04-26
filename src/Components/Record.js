@@ -1,7 +1,7 @@
 function ShowRecords(props){
 
     function removeRecord(e){
-        fetch(`http://localhost:4001/transactions/${props.id}`,{
+        fetch(`http://localhost:3000/transactions/${props.id}`,{
             method: 'DELETE'
         })
         .then(res=>res.json())

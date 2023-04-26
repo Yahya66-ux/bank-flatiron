@@ -8,7 +8,7 @@ function Main(){
     const [userSearch, postSearch] = useState('')
 
     useEffect(()=>{
-        fetch('http://localhost:4001/transactions')
+        fetch('http://localhost:3000/transactions')
         .then(res=>res.json())
         .then(data => postRecords(data))
     }, [])

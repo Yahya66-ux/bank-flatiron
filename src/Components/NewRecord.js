@@ -13,7 +13,7 @@ function NewRecord(){
             amount: amount,
             category: category
         }
-        fetch('http://localhost:4001/transactions',{
+        fetch('http://localhost:3000/transactions',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
