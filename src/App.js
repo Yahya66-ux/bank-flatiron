@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='main'>
-      <Trans/>
+      <transaction/>
     </div>
     
   );
