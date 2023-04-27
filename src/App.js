@@ -1,13 +1,15 @@
-import Header from './components/Header';
-import Main from './components/Main';
-import './components/style.css'
+import React from 'react';
+import Trans from './components/transaction';
+import './App.css';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <Header />
-      <Main />
+    <div className='main'>
+      <Trans/>
     </div>
+    
   );
 }
 
